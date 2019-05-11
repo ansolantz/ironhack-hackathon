@@ -5,7 +5,7 @@
 
 > The result was bBerry.
 
-Landing page to promote a new natural blueberry active drink. The target group i young people. The main action is to get people to sign upp to send them free samples.
+> A landing page to promote a new natural blueberry active drink. The target group i young people. The main action is to get people to sign upp to send them free samples.
 
 ### Files included:
 
