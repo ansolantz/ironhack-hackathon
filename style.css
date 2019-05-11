@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/* ---- reset ---- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #F7F7F7;
+}
+
+header {
+  background-color: #F7F7F7;
+}
+
+.logo {
+  height: 70px;
+  margin: 10px 25px 5px 25px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+/* ---- typography ---- */
+
+/* ---- layout ---- */
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+.cover{
+  background-image: url("./images/cover.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  height: 500px;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button {
+  color: white;
+  background-color:#78BF3B;
+  padding: 10px 55px;
+  border-radius: 10px;
+  border: 1px solid rgb(76, 120, 37);
+  font-weight: 800;
+  text-decoration: none;
+
+}
+
+.light{
+  height: 100px;
+  width: auto;
+}
+.samples {
+  margin-bottom: 40px;
+}
+
+.product-information {
+  width: 500px;
+  margin: 50px 100px 20px;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.benefit {
+  width: 300px;
+  margin-top: 50px;
+  text-align: center;
+  /* color: #2F0F25; */
+  color: #3c2059;
+}
+
+
+@media(max-width: 950px){
+  .product-information {
+    width: 450px;
+    margin: 50px 50px 20px;
+  }
+}
+@media(max-width: 840px){
+  .benefits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
